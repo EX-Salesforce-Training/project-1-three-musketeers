@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0054x0000011h5zAAA",
+    "createdByName": "Christopher Spencer",
+    "createdDate": "2020-11-23T00:00:39.000Z",
+    "fileName": "triggers/ContactTrigger.trigger",
+    "fullName": "ContactTrigger",
+    "id": "01q4x000000XzAQAA0",
+    "lastModifiedById": "0054x0000011h5zAAA",
+    "lastModifiedByName": "Christopher Spencer",
+    "lastModifiedDate": "2020-11-23T02:05:39.000Z",
+    "manageableState": "unmanaged",
+    "type": "ApexTrigger"
+  }
+}

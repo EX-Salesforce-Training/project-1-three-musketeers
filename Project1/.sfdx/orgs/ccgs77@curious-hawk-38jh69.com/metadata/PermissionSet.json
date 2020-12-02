@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0054x0000011h5zAAA",
+    "createdByName": "Christopher Spencer",
+    "createdDate": "2020-11-09T12:59:06.000Z",
+    "fileName": "permissionsets/Custom_driver.permissionset",
+    "fullName": "Custom_driver",
+    "id": "0PS4x000000H4RWGA0",
+    "lastModifiedById": "0054x0000011h5zAAA",
+    "lastModifiedByName": "Christopher Spencer",
+    "lastModifiedDate": "2020-11-09T13:00:19.000Z",
+    "manageableState": "unmanaged",
+    "type": "PermissionSet"
+  }
+}
