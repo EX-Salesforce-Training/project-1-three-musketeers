@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Home_Page_Default</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>Anime_app_logo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Postal Service is an American multinational Letter/Package delivery and supply chain management company</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Postal Service</label>
+    <navType>Standard</navType>
+    <tabs>Inhabitant__c</tabs>
+    <tabs>Address__c</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>Route__c</tabs>
+    <tabs>Mail__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Postal_Service_UtilityBar</utilityBar>
+</CustomApplication>

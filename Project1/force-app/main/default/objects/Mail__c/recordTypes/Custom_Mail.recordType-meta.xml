@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Mail</fullName>
+    <active>true</active>
+    <label>Custom Mail</label>
+    <picklistValues>
+        <picklist>Delivery_status__c</picklist>
+        <values>
+            <fullName>Delivered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Transit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Vehicle for Delivery%2FOut for Delivery</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mail_Type__c</picklist>
+        <values>
+            <fullName>First-Class Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Periodicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Priority Mail Express</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

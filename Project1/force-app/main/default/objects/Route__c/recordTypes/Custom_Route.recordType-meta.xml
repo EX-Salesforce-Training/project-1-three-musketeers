@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Route</fullName>
+    <active>true</active>
+    <label>Custom Route</label>
+    <picklistValues>
+        <picklist>City__c</picklist>
+        <values>
+            <fullName>Central Falls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East providence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Kingston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Providence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pawtucket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Providence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warwick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Warwick</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>State__c</picklist>
+        <values>
+            <fullName>Rhode Island</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Street__c</picklist>
+        <values>
+            <fullName>Street 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Street 10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Street 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Street 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Street 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Street 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Street 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Street 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Street 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Street 9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

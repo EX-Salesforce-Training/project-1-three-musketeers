@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Street__c</fullName>
+    <externalId>false</externalId>
+    <label>Street</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>City__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Street 1</fullName>
+                <default>false</default>
+                <label>Street 1</label>
+            </value>
+            <value>
+                <fullName>Street 2</fullName>
+                <default>false</default>
+                <label>Street 2</label>
+            </value>
+            <value>
+                <fullName>Street 3</fullName>
+                <default>false</default>
+                <label>Street 3</label>
+            </value>
+            <value>
+                <fullName>Street 4</fullName>
+                <default>false</default>
+                <label>Street 4</label>
+            </value>
+            <value>
+                <fullName>Street 5</fullName>
+                <default>false</default>
+                <label>Street 5</label>
+            </value>
+            <value>
+                <fullName>Street 6</fullName>
+                <default>false</default>
+                <label>Street 6</label>
+            </value>
+            <value>
+                <fullName>Street 7</fullName>
+                <default>false</default>
+                <label>Street 7</label>
+            </value>
+            <value>
+                <fullName>Street 8</fullName>
+                <default>false</default>
+                <label>Street 8</label>
+            </value>
+            <value>
+                <fullName>Street 9</fullName>
+                <default>false</default>
+                <label>Street 9</label>
+            </value>
+            <value>
+                <fullName>Street 10</fullName>
+                <default>false</default>
+                <label>Street 10</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Pawtucket</controllingFieldValue>
+            <controllingFieldValue>Warwick</controllingFieldValue>
+            <valueName>Street 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pawtucket</controllingFieldValue>
+            <controllingFieldValue>Warwick</controllingFieldValue>
+            <valueName>Street 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Falls</controllingFieldValue>
+            <controllingFieldValue>West Warwick</controllingFieldValue>
+            <valueName>Street 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Central Falls</controllingFieldValue>
+            <controllingFieldValue>West Warwick</controllingFieldValue>
+            <valueName>Street 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Providence</controllingFieldValue>
+            <controllingFieldValue>North Kingston</controllingFieldValue>
+            <valueName>Street 5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Providence</controllingFieldValue>
+            <controllingFieldValue>North Kingston</controllingFieldValue>
+            <valueName>Street 6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East providence</controllingFieldValue>
+            <valueName>Street 7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East providence</controllingFieldValue>
+            <valueName>Street 8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North Providence</controllingFieldValue>
+            <valueName>Street 9</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North Providence</controllingFieldValue>
+            <valueName>Street 10</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
