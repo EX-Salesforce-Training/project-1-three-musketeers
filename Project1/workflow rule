@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Delivery_status_to_missing</fullName>
+        <field>Delivery_status__c</field>
+        <literalValue>Missing</literalValue>
+        <name>Delivery status to missing</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Thank Customer</fullName>
+        <active>true</active>
+        <description>Thank the costumer after using the program</description>
+        <formula>True</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <tasks>
+        <fullName>ThankYou</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>&quot;Thank you for sending mail with us! We hope to see you soon!&quot;</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>ThankNote</subject>
+    </tasks>
+</Workflow>
