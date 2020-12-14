@@ -1,0 +1,39 @@
+<apex:page controller="ListShipmentController" >
+ <apex:form >
+    <apex:pageBlock >
+        <div class="slds-grid slds-wrap">
+              <div class="slds-col slds-size_10-of-12">
+              </div>
+                  <span>Delivered Mails</span>
+                   	 <apex:pageBlockTable value="{!bob}" var="mss">
+                     	<column>
+                        <div class="slds-col slds-grid slds-size_1-of-2">
+                            <div class="slds-col slds-size_2-of-2">
+                                  <span>
+                                     <apex:column value="{!mss.Name}"/>
+                                </span>
+                            </div>
+                                <div class="slds-col slds-size_1-of-2">
+                                  <span>
+                                    <apex:column value="{!mss.Shipment_status__c}"/>
+                                </span>
+                            </div>
+                                <div class="slds-col slds-size_2-of-4">
+                                <span>
+                                    <apex:column value="{!mss.Route__c}"/>
+                                </span>
+                            </div>
+                                <div class="slds-col slds-size_3-of-4">
+                                <span>
+                                    <apex:column value="{!mss.Address__c}"/>
+                                </span>
+                            </div>
+                                <div class="slds-col slds-size_4-of-4">
+                            </div>
+                        </div>
+                   </column>
+       </apex:pageBlockTable>
+        </div>
+    </apex:pageBlock>
+ </apex:form>
+</apex:page>
