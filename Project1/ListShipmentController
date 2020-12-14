@@ -1,0 +1,11 @@
+public class ListShipmentController {
+
+    public string a = 'In Transit';
+    public List<Mail__C> bob {get;set;}
+	
+	public ListShipmentController(){
+		bob = [SELECT Name, Shipment_status__c, Route__c, Address__c  FROM Mail__c WHERE Shipment_status__c like :a];
+        
+	}
+
+}
