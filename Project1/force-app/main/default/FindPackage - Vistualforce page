@@ -1,0 +1,22 @@
+apex:page controller="FindPackageController">
+    <apex:form >
+        <apex:pageBlock title="Enter Tracking Number">
+            <apex:inputText value="{!Trackpack}" />
+            <apex:pageBlockTable value="{!Findpackage}" var="ms" id="Find">
+                <apex:column >
+             <apex:pageBlockSection columns="1" title="Tracking information">
+           {! $User.FirstName & ' ' & $User.LastName }
+            <apex:outputField value="{!ms.Inhabitant__c}"/>
+            <apex:outputField value="{!ms.Address__c}"/>
+            <apex:outputField value="{!ms.Shipment_status__c}"/>
+            <apex:outputField value="{!ms.Tracking_Number__c}"/>
+        </apex:pageBlockSection>
+         </apex:column>
+             <apex:inlineEditSupport event="ondblClick" showOnEdit="saveButton,cancelButton" />
+            </apex:pageBlockTable>
+            <apex:pageBlockButtons >
+                <apex:commandButton value="FindPackage" action="{!pack}" rerender="Find" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
