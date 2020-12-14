@@ -1,0 +1,13 @@
+public class FindPackageController {
+public List<Mail__c> FindPackage {get;set;}
+    public string TrackPack {get;set;}
+    public FindPackageController() {
+        FindPackage = [SELECT Tracking_Number__c, Shipment_status__c,Address__c,Inhabitant__c FROM Mail__c WHERE Tracking_Number__c = :TrackPack];
+    }
+    
+    public void pack() {
+        FindPackage = [SELECT Tracking_Number__c, Shipment_status__c,Address__c,Inhabitant__c FROM Mail__c WHERE Tracking_Number__c = :TrackPack];
+        system.debug(Findpackage);
+    }
+        
+}
