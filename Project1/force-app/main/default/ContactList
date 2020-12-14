@@ -1,0 +1,101 @@
+<apex:page standardController="Account"  
+           recordSetVar="accounts" showHeader="true" sidebar="false"  
+           docType="html-5.0">
+  <html  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en"> 
+         <head>
+             <meta charset="utf-8" />
+             <meta http-equiv="x-ua-compatible" content="ie=edge" />
+             <title>Salesforce Lightning Design System Trailhead Module</title>
+             <meta name="viewport" content="width=device-width, initial-scale=1" />
+             <title> Account Information </title>
+             <!-- Import the Design System style sheet -->
+             <apex:slds />
+        </head>
+        <body>
+            <div class="slds-scope">
+                <p class="slds-text-heading_label slds-m-bottom_small"> Salesforce Lightning Design Account Data </p>
+                <!-- PAGE HEADER -->
+                <div class="slds-page-header" role="banner">
+                   <div class="slds-grid">
+                     <div class="slds-col slds-has-flexi-truncate">
+                        <!-- HEADING AREA -->
+                        <div class="slds-media slds-no-space slds-grow">
+                            <div class="slds-media__figure">
+                            <span class="slds-avatar slds-avatar_medium">
+                            <img src="https://png.pngtree.com/png-clipart/20190924/original/pngtree-business-people-avatar-icon-user-profile-free-vector-png-image_4815126.jpg" alt="Account" />
+                            </span>
+                            </div>
+                            <div class="slds-media__body">
+                            <p class="slds-text-title_caps slds-line-height_reset">Accounts</p>
+                            <h1 class="slds-page-header__title slds-m-right_small slds-align-middle slds-truncate" title="My Accounts">Account Information</h1>
+                            </div>
+                        </div>
+                        <!-- / HEADING AREA -->
+                     </div>
+                    </div>
+                </div>
+                
+                <!-- / PAGE HEADER -->
+                <div>
+                    <apex:form >
+                        <apex:pageBlock title="Account List" id="accounts_list">
+                            Filter:
+                            <apex:selectList value="{! filterId }" size="1">
+                                <apex:selectOptions value="{! listViewOptions }"/>
+                                <apex:actionSupport event="onchange" reRender="accounts_list"/>
+                            </apex:selectList>
+                            <br /><br />
+                            <!-- Accounts List -->
+                            <apex:pageBlockTable value="{! accounts }" var="ct">
+                                <apex:column headerValue="Account Name"  style="border:0px" > 
+                                     <apex:inputText value="{!ct.name}" style="border:0px" />  
+                                 </apex:column>
+                                 <!--<apex:column style="width:200px" value="{! ct.Name }"/>-->
+                                <apex:column style="width:400px" value="{! ct.Description }"/>
+                                <apex:column style="width:200px" value="{! ct.BillingCountry }"/>
+                                <apex:column style="width:200px" value="{! ct.BillingCity }"/>
+                            </apex:pageBlockTable>
+                            <!-- Pagination -->
+                            <table style="width: 100%"><tr>
+                                <td>
+                                    Page: <apex:outputText value=" {!PageNumber} of {! CEILING(ResultSize / PageSize) }"/>
+                                </td>
+                                <td align="center">
+                                   <!-- Previous page -->
+                                    <!-- active -->
+                                    <apex:commandLink action="{! Previous }" value="« Previous" rendered="{! HasPrevious }"/>
+                                    <!-- inactive (no earlier pages) -->
+                                    <apex:outputText style="color: #ccc;" value="« Previous" rendered="{! NOT(HasPrevious) }"/>
+                                    &nbsp;&nbsp;
+                                    <!-- Next page -->
+                                    <!-- active -->
+                                    <apex:commandLink action="{! Next }" value="Next »" rendered="{! HasNext }"/>
+                                    <!-- inactive (no more pages) -->
+                                    <apex:outputText style="color: #ccc;" value="Next »" rendered="{! NOT(HasNext) }"/>
+                                </td>
+                                <td align="right">
+                                    Records per page:
+                                    <apex:selectList value="{! PageSize }" size="1">
+                                        <apex:selectOption itemValue="5" itemLabel="5"/>
+                                        <apex:selectOption itemValue="20" itemLabel="20"/>
+                                        <apex:actionSupport event="onchange" reRender="accounts_list"/>
+                                    </apex:selectList>
+                                </td>
+                            </tr></table>
+                            <apex:commandButton action="{!quicksave}" value="Save" />
+                        </apex:pageBlock>
+                    </apex:form>
+                </div>
+                <footer role="Account Info" class="slds-p-around_large">
+                    <!-- LAYOUT GRID -->
+                    <div class="slds-grid slds-grid_align-spread">
+                    <p class="slds-col">Salesforce Lightning Design Account Information</p>
+                    <p class="slds-col">&copy; Three Musketeers</p>
+                    </div>
+                    <!-- / LAYOUT GRID -->
+                </footer>
+                <!-- / FOOTER -->
+            </div>`
+        </body> 
+    </html>
+</apex:page>
