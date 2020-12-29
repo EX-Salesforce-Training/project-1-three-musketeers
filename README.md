@@ -33,7 +33,7 @@ Use a Visualforce page inside the community
 
 
 ## Acceptable Use and External-Facing Services Policy
-1. Scope
+## 1. Scope
 A. This Acceptable Use and External Facing Services Policy (“Policy”) applies to customers’ use of all services offered by
 salesforce.com, inc. or its affiliates (“SFDC”).
 2. LastUpdated
