@@ -35,16 +35,16 @@ Use a Visualforce page inside the community
 ## Acceptable Use and External-Facing Services Policy
 ## 1. Scope
 A. This Acceptable Use and External Facing Services Policy (“Policy”) applies to customers’ use of all services offered by
-salesforce.com, inc. or its affiliates (“SFDC”).
-2. LastUpdated
-A. November 5, 2020
-3. Changes to Policy
+salesforce.com, inc. or its affiliates (“SFDC”).<br/>
+## 2. LastUpdated
+A. November 5, 2020<br/>
+## 3. Changes to Policy
 A. SFDC may change this Policy by posting an updated version of the Policy at www.salesforce.com and such updates will
-be effective upon posting.
-4. Violations
+be effective upon posting.<br/>
+## 4. Violations
 A. A customer’s violation of this Policy will be considered a material breach of the master subscription agreement and/or
-other agreement governing the customer’s use of the services.
-5. Prohibited Material
+other agreement governing the customer’s use of the services.<br/>
+## 5. Prohibited Material
 A. Customers may not, and may not allow any third party, including its users, to use services to display, store, process,
 or transmit, or permit use of services to display, store, process, or transmit:
 I. Material that infringes or misappropriates a third party’s intellectual property or proprietary rights;
@@ -57,8 +57,8 @@ VII. Unlawful software;
 VIII. Malicious code, such as viruses, worms, time bombs, Trojan horses, and other harmful or malicious files, scripts,
 agents, or programs; or
 IX. Material that violates, encourages, or furthers conduct that would violate any applicable laws, including any
-criminal laws, or any third-party rights, including publicity or privacy rights.
-6. Prohibited Actions
+criminal laws, or any third-party rights, including publicity or privacy rights.<br/>
+## 6. Prohibited Actions
 A. Customers may not use a service to, nor allow its users or any third party to use a service to:
 I. Generate or facilitate unsolicited commercial email (spam). Such prohibited activity includes, but is not limitedto:
 a. Sending communications or email in violation of the CAN-SPAM Act or any other applicable anti- spam law or
@@ -66,8 +66,7 @@ regulation;
 b. Imitating or impersonating SFDC, another person or his, her, or its email address, or creating false accounts
 for the purpose of sending spam;
 c. Data mining or harvesting any web property (including any External-Facing Service) to find email addresses or
-other user account information;
-2
+other user account information;2
 d. Sending unauthorized mail via open, third-party servers;
 e. Sending email to users who have requested to be removed from a mailing list;
 f. Selling to, exchanging with, sharing with, or distributing to a third party personal information, including the
@@ -141,8 +140,8 @@ the case of a pistol), barrel shroud; semi-automatic firearms with a fixed magaz
 rounds; ghost guns; 3D printed guns; firearms without serial numbers; .50 BMG rifles; firearms thatuse .50 BMG
 ammunition. Firearm Parts: magazines capable of accepting more than 10 rounds; flash or sound suppressors; multiburst trigger devices; grenade or rocket launchers; 80% or unfinished lower receivers; blueprints for ghost guns;
 blueprints for 3D printed guns; barrel shrouds; thumbhole stocks; threaded barrels capable of accepting a flash
-suppressor or sound suppressor.
-7. U.S. Digital Millennium Copyright Act or Similar Statutory Obligations
+suppressor or sound suppressor.<br/>
+## 7. U.S. Digital Millennium Copyright Act or Similar Statutory Obligations
 A. To the extent a customer uses the services for hosting, advertising, sending electronic messages, or for the creation
 and hosting of, or for posting material on, websites, each customer must:
 I. Comply with any notices received under Title II of the Digital Millennium Copyright Act of 1998 (Section 512 of the
@@ -161,4 +160,4 @@ intellectual property, SFDC may disable that customer’s instance of the servic
 material. If SFDC receives more than one such notice for the same customer, SFDC reserves the right to immediately
 terminate such customer’s subscriptions to the services as deemed necessary by SFDC to ensure continued protection
 under the safe harbor provisions under the DMCA or to prevent violations of other applicable laws or third parties’
-rights.
+rights.<br/>
